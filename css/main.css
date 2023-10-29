@@ -1,0 +1,192 @@
+.search_form_container {
+    margin-top: 36px;
+}
+
+.search_form {
+    display: block;
+}
+
+.search_input {
+    font-family: 'Montserrat';
+    display: block;
+    width: calc(100% - 214px);
+    height: 57px;
+    border: none;
+    outline: none;
+    padding-left: 27px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.search_input::-webkit-input-placeholder {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #6c757d;
+    opacity: 1;
+}
+
+.search_input:-moz-placeholder {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #6c757d;
+    opacity: 1;
+}
+
+.search_input::-moz-placeholder {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #6c757d;
+    opacity: 1;
+}
+
+.search_input:-ms-input-placeholder {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #6c757d;
+    opacity: 1;
+}
+
+.search_input::input-placeholder {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #6c757d;
+    opacity: 1;
+}
+
+.search_button {
+    font-family: 'Montserrat';
+    width: 196px;
+    height: 57px;
+    border: none;
+    outline: none;
+    background: #F15A24;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FCFAF4;
+}
+
+.join-btn {
+    background: #554B48;
+    color: #fff !important;
+    border-radius: 10px;
+    padding: 10px 30px !important;
+}
+.custom-text-field {
+    font-family: 'Montserrat';
+    display: block;
+    height: 57px;
+    border: none;
+    outline: none;
+    padding-left: 27px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #554B48;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.custom-btn {
+    font-family: 'Montserrat';
+    height: 57px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #F15A24;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FCFAF4;
+}
+.alert {
+    font-family: 'Montserrat';
+    font-size: 11px;
+}
+.center-img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#form-section{
+    padding: 40px 20px;
+}
+#form-section > p{
+    text-align: center;
+}
+.btn-large-join{
+background: #F15A24;
+border-radius: 12px;
+height: 60px !important;
+min-width: 200px;
+font-size: larger;
+font-weight: 900;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logo a img {
+        /* width: 25% !important; */
+    }
+    .slider-area {
+        height: 660px;
+        padding-top: 135px;
+    }
+    .custom-text-field {
+        font-size: 10px;
+    }
+    .header-area.header_fix {
+        background: #fe601a;
+        z-index: 9;
+        box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    }
+    .join-btn{
+
+    }
+    .btn-large-join{
+        min-width: 200%;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .logo a img {
+        /* width: 20% !important; */
+    }
+    .custom-text-field {
+        margin-bottom: 8px;
+    }
+    .header-area.header_fix {
+        background: #fe601a;
+        z-index: 9;
+        box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    }
+    .btn-large-join{
+        min-width: 200%;
+    }
+}
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    .logo a img {
+        /* width: 20% !important; */
+        content: url('/images/logo azarel white.png')
+    }
+    .slider-content h2 {
+        font-size: 26px;
+    }
+    .custom-text-field {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .header-area.header_fix {
+        background: #fe601a;
+        z-index: 9;
+        box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    }
+    .btn-large-join{
+        min-width: 200%;
+    }
+}
